@@ -10,7 +10,7 @@ def max_value(a, b):
         return b
 
 class Test:
-    def method1(self):
+    def pass1(self):
         pass
-    def method2(self):
+    def pass2(self):
         pass
