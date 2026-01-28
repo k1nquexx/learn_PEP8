@@ -1,5 +1,5 @@
 def check_values(a, b):
-    if a == True and b == False:
+    if a  and not b:
         return True
     elif a is None and b is None:
         return None

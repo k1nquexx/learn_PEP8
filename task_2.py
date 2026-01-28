@@ -7,7 +7,7 @@ class UserData:
 
 def process_data(data_list):
     result = []
-    for d in data_list:
-        if d.age > 18:
-            result.append(d.user_name.upper())
+    for user in data_list:
+        if user.age > 18:
+            result.append(user.user_name.upper())
     return result
